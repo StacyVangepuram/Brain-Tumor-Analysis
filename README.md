@@ -3,6 +3,7 @@
 # 🧠 FL-QPSO Brain Tumor Management System
 
 **Privacy-Preserving Brain Tumor Classification, Segmentation & Progression Forecasting**
+
 **Live Application Link : https://huggingface.co/spaces/Divs0910/neuroai-dashboard**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
