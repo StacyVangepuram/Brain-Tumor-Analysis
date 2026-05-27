@@ -30,14 +30,14 @@ This project presents a comprehensive **end-to-end brain tumor management pipeli
 
 ```mermaid
 graph LR
-    A["MRI Scans"] --> B["3D Attention U-Net\nSegmentation"]
-    A --> C["FL-QPSO\nClassification"]
-    B --> D["Tumor Time Travel\nProgression"]
-    B --> E["Volume\nExtraction"]
+    A["MRI Scans"] --> B["3D Attention U-Net<br>Segmentation"]
+    A --> C["FL-QPSO<br>Classification"]
+    B --> D["Tumor Time Travel<br>Progression"]
+    B --> E["Volume<br>Extraction"]
     E --> D
-    C --> F["Integrated\nRisk Score"]
+    C --> F["Integrated<br>Risk Score"]
     D --> F
-    F --> G["Clinical\nDashboard"]
+    F --> G["Clinical<br>Dashboard"]
 ```
 
 | Module | What It Does | Key Result |
