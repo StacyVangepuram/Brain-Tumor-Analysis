@@ -1,0 +1,8 @@
+Metric,FedAvg,FedProx,QPSO-FL
+Final Acc (%),93.29,95.85,93.78
+Best Acc (%),95.8,96.13,95.14
+Rounds Run,98.0,100.0,100.0
+Rounds to 80%,11.0,12.0,9.0
+Avg Round (s),7.84,8.03,75.09
+Total Time (min),12.81,13.39,125.14
+Client Std Dev,5.28,2.27,1.56
