@@ -3,6 +3,7 @@
 # 🧠 FL-QPSO Brain Tumor Management System
 
 **Privacy-Preserving Brain Tumor Classification, Segmentation & Progression Forecasting**
+** Live Application Link : https://huggingface.co/spaces/Divs0910/neuroai-dashboard**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -46,7 +47,6 @@ graph LR
 | **Classification** | Privacy-preserving tumor typing via FL | Accuracy: **99.29%** |
 | **Progression** | 6-month growth prediction + RANO alerts | LSTM + Math models |
 
-> **Prior Work:** Extends our published research *"Enhancing Federated Learning with Quantum-Inspired PSO: An IID MNIST Study"* (Edla, 2025) to the harder Non-IID medical imaging setting.
 
 ---
 
@@ -92,7 +92,7 @@ Longitudinal growth prediction using mathematical models and LSTM deep learning.
 - **Mathematical Models:** Exponential, Gompertz, Logistic, Linear
 - **Deep Learning:** LSTM time-series forecaster
 - **Output:** 6-month growth curves, RANO status (CR/PR/SD/PD), risk alerts
-- **Datasets:** MU-Glioma-Post, LUMIERE, UCSD-PTGBM (from TCIA)
+- **Dataset:** MU-Glioma-Post (from TCIA)
 
 📂 [`progression/`](progression/) · 📄 [Module README](progression/README.md)
 
@@ -271,16 +271,6 @@ FL_QPSO_FedAvg/
 | [Research Paper](federated_learning/RESEARCH_PAPER.md) | Paper reference for FL-QPSO vs FedAvg |
 
 ---
-
-## Research & Publications
-
-### Prior Publication
-> Edla, D.T. (2025). *"Enhancing Federated Learning with Quantum-Inspired Particle Swarm Optimization: An IID MNIST Study."* Matrusri Engineering College.
-
-### Target Venues
-- **IEEE Transactions on Medical Imaging**
-- **MICCAI** (Medical Image Computing and Computer Assisted Intervention)
-- **Medical Image Analysis (MedIA)**
 
 ### Key References
 - McMahan et al., 2017 — FedAvg
